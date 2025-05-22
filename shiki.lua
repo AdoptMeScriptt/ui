@@ -13,6 +13,6 @@ task.spawn(function()
 end)
 
 -- Add slight delay before running GUI to avoid conflict
-task.delay(1.5, function()
+task.delay(2, function()
     safeLoad('https://raw.githubusercontent.com/AdoptMeScriptt/loadingandspawner/refs/heads/main/finalspawnerloading.lua.txt')
 end)
